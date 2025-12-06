@@ -1,3 +1,4 @@
 # X-Aware-MacroPlacement
 
-In Progress
+**Status:** 🚧 In Progress  
+**Expected Release:** December 15, 2025
