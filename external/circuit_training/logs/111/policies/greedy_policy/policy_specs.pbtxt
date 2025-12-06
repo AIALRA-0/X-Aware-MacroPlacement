@@ -1,0 +1,292 @@
+dict_value {
+  fields {
+    key: "collect_data_spec"
+    value {
+      named_tuple_value {
+        name: "Trajectory"
+        values {
+          key: "step_type"
+          value {
+            tensor_spec_value {
+              name: "step_type"
+              shape {
+              }
+              dtype: DT_INT32
+            }
+          }
+        }
+        values {
+          key: "observation"
+          value {
+            dict_value {
+              fields {
+                key: "current_node"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/current_node"
+                    shape {
+                      dim {
+                        size: 1
+                      }
+                    }
+                    dtype: DT_INT32
+                    minimum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 0
+                    }
+                    maximum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 3499
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "fake_net_heatmap"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/fake_net_heatmap"
+                    shape {
+                      dim {
+                        size: 16384
+                      }
+                    }
+                    dtype: DT_FLOAT
+                    minimum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 0.0
+                    }
+                    maximum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 1.0
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "is_node_placed"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/is_node_placed"
+                    shape {
+                      dim {
+                        size: 3500
+                      }
+                    }
+                    dtype: DT_INT32
+                    minimum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 0
+                    }
+                    maximum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 1
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "locations_x"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/locations_x"
+                    shape {
+                      dim {
+                        size: 3500
+                      }
+                    }
+                    dtype: DT_FLOAT
+                    minimum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 0.0
+                    }
+                    maximum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 1.0
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "locations_y"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/locations_y"
+                    shape {
+                      dim {
+                        size: 3500
+                      }
+                    }
+                    dtype: DT_FLOAT
+                    minimum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 0.0
+                    }
+                    maximum {
+                      dtype: DT_FLOAT
+                      tensor_shape {
+                      }
+                      float_val: 1.0
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "mask"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/mask"
+                    shape {
+                      dim {
+                        size: 16384
+                      }
+                    }
+                    dtype: DT_INT32
+                    minimum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 0
+                    }
+                    maximum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 1
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "netlist_index"
+                value {
+                  bounded_tensor_spec_value {
+                    name: "observation/netlist_index"
+                    shape {
+                      dim {
+                        size: 1
+                      }
+                    }
+                    dtype: DT_INT32
+                    minimum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 0
+                    }
+                    maximum {
+                      dtype: DT_INT32
+                      tensor_shape {
+                      }
+                      int_val: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        values {
+          key: "action"
+          value {
+            bounded_tensor_spec_value {
+              name: "action"
+              shape {
+              }
+              dtype: DT_INT64
+              minimum {
+                dtype: DT_INT64
+                tensor_shape {
+                }
+                int64_val: 0
+              }
+              maximum {
+                dtype: DT_INT64
+                tensor_shape {
+                }
+                int64_val: 16383
+              }
+            }
+          }
+        }
+        values {
+          key: "policy_info"
+          value {
+            tuple_value {
+            }
+          }
+        }
+        values {
+          key: "next_step_type"
+          value {
+            tensor_spec_value {
+              name: "step_type"
+              shape {
+              }
+              dtype: DT_INT32
+            }
+          }
+        }
+        values {
+          key: "reward"
+          value {
+            tensor_spec_value {
+              name: "reward"
+              shape {
+              }
+              dtype: DT_FLOAT
+            }
+          }
+        }
+        values {
+          key: "discount"
+          value {
+            bounded_tensor_spec_value {
+              name: "discount"
+              shape {
+              }
+              dtype: DT_FLOAT
+              minimum {
+                dtype: DT_FLOAT
+                tensor_shape {
+                }
+                float_val: 0.0
+              }
+              maximum {
+                dtype: DT_FLOAT
+                tensor_shape {
+                }
+                float_val: 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  fields {
+    key: "policy_state_spec"
+    value {
+      tuple_value {
+      }
+    }
+  }
+}
