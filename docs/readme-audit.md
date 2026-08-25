@@ -42,7 +42,7 @@ HotSpot 上游 Makefile 的两个注释示例包含历史用户目录和类似�
 | PLC 重放 | `scripts/legalized.plc`、默认参数 | 读出 1410 条记录，功耗 CSV 与已提交文件完全一致 |
 | 热场重放 | 128 × 128 网格、80 微米核宽 | 生成热图、梯度图和指标 JSON |
 | Streamlit | Chromium、本地隔离实例 | 标题、参数、输入选择与上传界面正常渲染 |
-| README 视觉 | 本地资产与 GitHub 渲染 | 横幅、3 张 PNG 和 2 个 Mermaid 待提交后复核 |
+| README 视觉 | GitHub `main` 提交 `6d12dd4` | 中英文各有 16 个主章节、11 张表、12 个图片节点和 2 个 Mermaid，图片零破损，双语跳转通过 |
 
 </div>
 
