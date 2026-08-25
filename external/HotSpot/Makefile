@@ -35,8 +35,8 @@ endif
 # Intel Machines - acceleration with the Intel
 # Math Kernel Library (MKL)
 #MATHACCEL	= intel
-#INCDIR		= /bigdisk/ks4kk/mkl/10.1.0.015/include
-#LIBDIR		= /bigdisk/ks4kk/mkl/10.1.0.015/lib/em64t
+#INCDIR		= /path/to/intel/mkl/<version>/include
+#LIBDIR		= /path/to/intel/mkl/<version>/lib/em64t
 #LIBS		= -lmkl_lapack -lmkl -lguide -lm -lpthread
 #EXTRAFLAGS	=
 

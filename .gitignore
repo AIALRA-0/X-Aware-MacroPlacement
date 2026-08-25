@@ -170,6 +170,10 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+# Local README and replay validation artifacts
+.playwright-cli/
+/outputs/replay/
+
 # PyPI configuration file
 .pypirc
 
